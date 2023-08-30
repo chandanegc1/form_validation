@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form validation</title>
+</head>
+<body>
+    <div id="loginbtn"><a href="./Login.html"><button id="submi">Login</button></a></div>
+    <form action="Login/index.html" name="myform" onsubmit="return check()">
+        <div class="org">Name:- <input type="text" name="fname">                      <span class="error"></span><br><br></div>          
+        <div class="org">Email:- <input type="email" name="femail">                   <span class="error"></span><br><br></div>
+        <div class="org">Number:- <input type="text" name="fnumber">                   <span class="error"></span><br><br></div>
+        <div class="org">Password:- <input type="password" name="fpassword">          <span class="error"></span><br><br> </div>         
+        <div class="org">confirm Password;- <input type="password" name="fcpassword"> <span class="error"></span><br><br></div>
+        <input type="submit" name="" id="submi">
+    </form>
+    <script src="script.js"></script>
+</body>
+</html> 
